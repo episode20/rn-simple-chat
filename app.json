@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "react-native-simple-chat",
+    "slug": "react-native-simple-chat",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "react-native-simple-chat"
+}
