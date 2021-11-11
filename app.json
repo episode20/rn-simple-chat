@@ -3,9 +3,31 @@
     "name": "react-native-simple-chat",
     "slug": "react-native-simple-chat",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.kimsj23.simplechatfirst",
+      "buildNumber": "1.0.0",
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "The app accesses to photo library to upload your profile photo when you are signing up or updating the profile" // 심사통과를 위해 권한이 필요한 이유를 메시지에 명확하게 포함시켜야 함.
+      }
+    },
+    "android": {
+      "package": "com.kimsj23.simplechatfirst",
+      "versionCode": 1,
+      "permissions": ["CAMERA"],
+      "icon": "./assets/ic_launcher.png",
+      "adaptiveIcon": {
+        "backgroundColor": "#3679fe",
+        "foregroundImage": "./assets/ic_launcher.png"
+      }
+    },
+    "icon": "./assets/ic_launcher.png",
+    "splash": {
+      "image": "./assets/ic_launcher.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    }
   },
   "name": "react-native-simple-chat"
 }
